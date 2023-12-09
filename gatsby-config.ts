@@ -18,6 +18,10 @@ const config: GatsbyConfig = {
     author: `@lekoarts_de`,
   },
   trailingSlash: `always`,
+
+
+
+
   plugins: [
     {
       resolve: `@lekoarts/gatsby-theme-jodie`,
@@ -37,6 +41,10 @@ const config: GatsbyConfig = {
         output: `/`,
       },
     },
+
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
