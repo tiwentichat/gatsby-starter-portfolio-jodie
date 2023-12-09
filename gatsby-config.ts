@@ -74,3 +74,9 @@ const config: GatsbyConfig = {
 }
 
 export default config
+
+
+
+interface IAllPost {
+  nodes: Array<IPost>
+}
