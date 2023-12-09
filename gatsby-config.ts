@@ -8,7 +8,7 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-jodie/gatsby-config.mjs
-    siteTitle: `Jodie`,
+    siteTitle: `i.Photothe.Life`,
     siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
     siteHeadline: `Jodie - Gatsby Theme from @lekoarts`,
     siteUrl: `https://jodie.lekoarts.de`,
@@ -26,7 +26,7 @@ const config: GatsbyConfig = {
         navigation: [
           { name: `Projects`, slug: `/projects` },
           { name: `Art`, slug: `/art` },
-          { name: `About`, slug: `/about` },
+          { name: `关于`, slug: `/about` },
         ],
       },
     },
