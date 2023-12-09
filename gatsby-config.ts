@@ -42,8 +42,7 @@ const config: GatsbyConfig = {
       },
     },
 
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
+
     
     {
       resolve: `gatsby-plugin-manifest`,
